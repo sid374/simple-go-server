@@ -23,7 +23,7 @@ type Template struct {
 	endPosition int
 }
 
-var licenseKey = `862b160f089f508e9bed9eb5995571823d9114e399512980a1962245518563c9`
+var licenseKey = ``
 
 func getStructFromSubmatchIndex(submatch []int, s string, mapping map[string]string) Template {
 	varName := s[submatch[2]:submatch[3]]
